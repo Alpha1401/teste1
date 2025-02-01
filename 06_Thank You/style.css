@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000019;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+
+.thank-text h1{
+  font-family: Rubik, sans-serif ;
+  color: gray;
+  font-size: 38px;
+
+}
+
+.thank-text span {
+  color: #33a170;
+}
+
+.thank-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.thank-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 30px 10px;
+}
+
+.header a {
+  color: white;
+  font-family: Rubik, sans-serif;
+  text-decoration: none;
+}
+
+.header a:hover{
+  color: #33a170;
+}
+
+.icon > i{
+  font-size: 24px;
+  margin-left: 10px;
+  color: white;
+}
